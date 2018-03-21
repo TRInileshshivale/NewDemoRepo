@@ -17,7 +17,6 @@ namespace DataBaseFirstApproachEntityFramework
             Title="Title",
             PostID=1
             };
-
             context.PostsTables.Add(post);
             context.SaveChanges();
         }
