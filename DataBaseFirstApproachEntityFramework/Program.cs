@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
 using System.Threading.Tasks;
+using system.Linq;
+
 namespace DataBaseFirstApproachEntityFramework
 {
     class Program
@@ -17,7 +19,7 @@ namespace DataBaseFirstApproachEntityFramework
 
             context.PostsTables.Add(post);
             context.SaveChanges();
-           Console.WriteLine("jhfjfdjddk");
+           //Console.WriteLine("jhfjfdjddk");
         }
     }
 }
