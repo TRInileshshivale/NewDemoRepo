@@ -10,8 +10,8 @@ namespace DataBaseFirstApproachEntityFramework
     {
         static void Main(string[] args)
         {
-            //var context = new PracticeSelfEntities();
-           // var post = new PostsTable()
+            var context = new PracticeSelfEntities();
+            var post = new PostsTable()
             { Body="Body",
             DatePublished=DateTime.Now,
             Title="Title",
