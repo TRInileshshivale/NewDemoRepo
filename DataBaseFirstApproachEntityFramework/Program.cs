@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataBaseFirstApproachEntityFramework
 {
@@ -21,6 +17,7 @@ namespace DataBaseFirstApproachEntityFramework
             
             context.PostsTables.Add(post);
             context.SaveChanges();
+           Console.WriteLine("jhfjfdjddk");
         }
     }
 }
