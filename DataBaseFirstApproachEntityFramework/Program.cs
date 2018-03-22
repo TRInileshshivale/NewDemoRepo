@@ -19,7 +19,7 @@ namespace DataBaseFirstApproachEntityFramework
 
             context.PostsTables.Add(post);
             context.SaveChanges();
-           //Console.WriteLine("jhfjfdjddk");
+            Console.WriteLine("jhfjcvdfbrgmthmtfdjddk");
         }
     }
 }
